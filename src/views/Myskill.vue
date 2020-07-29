@@ -112,24 +112,24 @@
 export default {
   data() {
     return {
-      image_photoshop: require("../assets/ps.svg"),
-      image_illustrator: require("../assets/Ai.svg"),
-      image_html: require("../assets/HTML5.svg"),
-      image_css: require("../assets/CSS3.svg"),
-      image_js: require("../assets/js.svg"),
-      image_jQuery: require("../assets/jquery-icon.svg"),
-      image_ruby: require("../assets/ruby.svg"),
-      image_rails: require("../assets/Rails.svg"),
-      image_sass: require("../assets/sass-1.svg"),
-      image_php: require("../assets/php.png"),
-      image_laravel: require("../assets/laravel-2.svg"),
-      image_vue: require("../assets/vue.svg"),
-      image_xd: require("../assets/xd.svg"),
-      image_ae: require("../assets/ae.svg"),
-      image_pr: require("../assets/pr.svg"),
-      image_vuecli: require("../assets/vuecli.svg")
+      image_photoshop: require("../assets/logo/ps.svg"),
+      image_illustrator: require("../assets/logo/Ai.svg"),
+      image_html: require("../assets/logo/HTML5.svg"),
+      image_css: require("../assets/logo/CSS3.svg"),
+      image_js: require("../assets/logo/js.svg"),
+      image_jQuery: require("../assets/logo/jquery-icon.svg"),
+      image_ruby: require("../assets/logo/ruby.svg"),
+      image_rails: require("../assets/logo/Rails.svg"),
+      image_sass: require("../assets/logo/sass-1.svg"),
+      image_php: require("../assets/logo/php.png"),
+      image_laravel: require("../assets/logo/laravel-2.svg"),
+      image_vue: require("../assets/logo/vue.svg"),
+      image_xd: require("../assets/logo/xd.svg"),
+      image_ae: require("../assets/logo/ae.svg"),
+      image_pr: require("../assets/logo/pr.svg"),
+      image_vuecli: require("../assets/logo/vuecli.svg"),
     };
-  }
+  },
 };
 </script>
 
@@ -176,5 +176,20 @@ hr {
 .skill-li-name {
   text-align: center;
   margin-top: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    margin: 24px;
+  }
+  li {
+    margin-right: 16px;
+  }
+  img {
+    width: 80%;
+  }
+  .skill-li {
+    height: 100px;
+  }
 }
 </style>

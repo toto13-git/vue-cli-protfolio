@@ -21,18 +21,24 @@ export default {
 </script>
 
 <style scoped>
-.header {
-  height: 40px;
-  width: 100%;
-}
 .nav-wapper {
   text-align: right;
-  margin-top: 40px;
   margin: 40px 80px 0 0;
 }
 .nav {
   font-size: 2.4rem;
   padding-left: 56px;
   text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+  .nav-wapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px 24px 0 0;
+  }
+  .nav {
+    font-size: 2rem;
+    padding-left: 20px;
+  }
 }
 </style>
