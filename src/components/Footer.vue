@@ -8,9 +8,9 @@
 export default {
   data() {
     return {
-      text: "Copyright © 2020 toto13 . All Rights Reserved."
+      text: "Copyright © 2020 toto13 . All Rights Reserved.",
     };
-  }
+  },
 };
 </script>
 
@@ -19,14 +19,12 @@ export default {
   height: 32px;
   width: 100%;
   margin-top: auto;
-  background: aliceblue;
   text-align: center;
   line-height: 32px;
-  color: #999;
+  color: #606cef;
 }
 p {
   line-height: 32px;
-  opacity: 0.5;
   margin: 0;
 }
 </style>
