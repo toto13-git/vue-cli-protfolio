@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Production from '../views/Production.vue'
+import ProductionGraphic from '../views/Graphic.vue'
+import ProductionWeb from '../views/Web.vue'
+
 
 Vue.use(VueRouter)
 
@@ -21,12 +25,28 @@ const routes = [
   {
     path: '/production',
     name: 'Production',
-    component: () => import('../views/Production.vue')
+    components: { default: Production },
+    props: {
+      default: true,
+
+    },
+    children: [{
+      path: 'web',
+      component: ProductionWeb
+    },
+    {
+      path: 'graphic',
+      component: ProductionGraphic
+    }
+    ]
   },
   {
     path: '/skill',
     name: 'Skill',
     component: () => import('../views/Myskill.vue')
+  }, {
+    path: "*",
+    redirect: "/"
   }
 ]
 

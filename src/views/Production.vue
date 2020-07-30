@@ -2,9 +2,14 @@
   <div class="triangle">
     <div class="wrapper">
       <div class="production">
-        <h1>Production</h1>
+        <h1>
+          Production
+          <router-link to="/production/web" class="nav">Web</router-link>
+          <router-link to="/production/graphic" class="nav">Graphic</router-link>
+        </h1>
+        <router-view></router-view>
 
-        <div class="content">
+        <!-- <div class="content">
           <div class="num">
             <div class="num-container">
               <p>
@@ -128,7 +133,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
@@ -191,9 +196,18 @@ li {
   line-height: 24px;
 }
 
-#nav a {
-  opacity: 1;
+.production {
+  display: inline-block;
 }
+.nav {
+  font-size: 2.4rem;
+  padding-left: 56px;
+  text-decoration: none;
+}
+
+/* #nav a {
+  opacity: 1;
+} */
 .num {
   width: 100%;
 }
