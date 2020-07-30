@@ -568,9 +568,6 @@ export default {
       no-repeat;
   background-size: 50% 50%;
 }
-/* .wrapper {
-  margin: 120px 0 0;
-} */
 
 h1 {
   /* margin-left: 80px; */
