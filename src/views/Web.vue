@@ -2,12 +2,6 @@
   <!-- <div class="triangle">
   <div class="wrapper">-->
   <div class="production">
-    <!-- <h1>Production</h1>
-
-        <router-link to="/production/web">web</router-link>
-        <router-link to="/production/graphic">graphic</router-link>
-    <router-view></router-view>-->
-
     <div class="content">
       <div class="num">
         <div class="num-container">
@@ -53,7 +47,7 @@
               <div class="info-container__link">
                 <div class="info-container__link--box">
                   <a :href="gitBowlingUrl.href">
-                    <img :src="image_gitHub" alt="画像" />
+                    <img class="git-icon" :src="image_gitHub" alt="画像" />
                   </a>
                   <br />
                   <a :href="bowlingUrl.href">ボウリングアプリへ</a>
@@ -122,7 +116,7 @@
               <div class="info-container__link">
                 <div class="info-container__link--box">
                   <a :href="gitBowlingUrl.href">
-                    <img :src="image_gitHub" alt="画像" />
+                    <img class="git-icon" :src="image_gitHub" alt="画像" />
                   </a>
                   <br />
                   <a :href="bowlingUrl.href">備蓄アプリへ</a>
@@ -195,9 +189,9 @@ li {
   line-height: 24px;
 }
 
-/* #nav a {
+#nav a {
   opacity: 1;
-} */
+}
 .num {
   width: 100%;
 }
@@ -262,6 +256,9 @@ li {
 .info-container__link--box {
   margin: auto 0 0 40px;
   text-align: end;
+}
+.git-icon {
+  margin-bottom: 8px;
 }
 
 .content2 {

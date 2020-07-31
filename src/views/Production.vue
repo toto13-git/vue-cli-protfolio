@@ -165,7 +165,7 @@ export default {
 
 <style  scoped>
 .triangle {
-  padding-bottom: 24px;
+  padding-bottom: 96px;
   background: linear-gradient(to top right, #606cef 25%, transparent 25.1%) 0%
       30% no-repeat,
     linear-gradient(to bottom right, #606cef 25%, transparent 25.1%) 0% 130%
@@ -174,7 +174,7 @@ export default {
       no-repeat,
     linear-gradient(to bottom left, #606cef 25%, transparent 25.1%) 100% 100%
       no-repeat;
-  background-size: 50% 50%;
+  background-size: 30% 50%;
 }
 /* .wrapper {
   margin: 120px 0 0;
@@ -367,6 +367,7 @@ li {
       margin: 0 auto;
     }
   }
+
   @media screen and (max-width: 480px) {
     h1 {
       margin-bottom: 40px;

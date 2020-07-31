@@ -13,11 +13,14 @@
 
         <div class="main">
           <div class="photo-container">
-            <img class="photo-container__photo" :src="image_zoff" alt="画像" />
+            <img class="photo-container__photo-top" :src="image_zoff" alt="画像" />
           </div>
 
           <div class="info-container">
-            <h2>株式会社ゾフ 眼鏡の雑誌広告</h2>
+            <h2>
+              株式会社ゾフ
+              <br />眼鏡の雑誌広告
+            </h2>
 
             <div class="info-container__info">
               <div>
@@ -45,15 +48,23 @@
                     <li>
                       <h4>その他アイデア、ビジュアル</h4>
                     </li>
-                    <div class="photo-area">
+                    <div class="photo-area-top">
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_zoff_1000" alt="画像" />
+                          <img
+                            class="photo-container__photo-top-sub"
+                            :src="image_zoff_1000"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_zoff_5000" alt="画像" />
+                          <img
+                            class="photo-container__photo-top-sub"
+                            :src="image_zoff_5000"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                     </div>
@@ -83,7 +94,10 @@
           </div>
 
           <div class="info-container">
-            <h2>カジュアルラウンジRIVER 店舗前に置く電装スタンド看板</h2>
+            <h2>
+              カジュアルラウンジRIVER
+              <br />店舗前に置く電装スタンド看板
+            </h2>
 
             <div class="info-container__info">
               <div>
@@ -151,7 +165,10 @@
           </div>
 
           <div class="info-container">
-            <h2>株式会社オーディオテクニカ ノイズキャンセリングヘッドホンの中吊り広告</h2>
+            <h2>
+              株式会社オーディオテクニカ
+              <br />ノイズキャンセリングヘッドホンの中吊り広告
+            </h2>
 
             <div class="info-container__info">
               <div>
@@ -180,7 +197,7 @@
                     <li>
                       <h4>その他アイデア、ビジュアル</h4>
                     </li>
-                    <div class="photo-area">
+                    <div class="photo-area-noise">
                       <li>
                         <div class="photo-container">
                           <img class="photo-container__photo-sub" :src="image_noise_1" alt="画像" />
@@ -430,7 +447,7 @@
                     <li>
                       <h4>その他アイデア、ビジュアル</h4>
                     </li>
-                    <div class="photo-area">
+                    <div class="photo-area-hit">
                       <li>
                         <div class="photo-container">
                           <img class="photo-container__photo-sub" :src="image_hit_2" alt="画像" />
@@ -464,15 +481,15 @@
 
         <div class="main">
           <div class="photo-container">
-            <img class="photo-container__photo" :src="image_tuno" alt="画像" />
+            <img class="photo-container__photo-i" :src="image_tuno" alt="画像" />
           </div>
 
-          <div class="info-container">
+          <div class="info-container-i">
             <h2>イラスト</h2>
 
             <div class="info-container__info">
               <div>
-                <div class="info-container__info--details">
+                <div class="info-container__info--details-i">
                   <ul>
                     <li>
                       <h4>工夫したところ</h4>
@@ -503,15 +520,15 @@
 
         <div class="main">
           <div class="photo-container">
-            <img class="photo-container__photo" :src="image_ap" alt="画像" />
+            <img class="photo-container__photo-i" :src="image_ap" alt="画像" />
           </div>
 
-          <div class="info-container">
+          <div class="info-container-i">
             <h2>イラスト</h2>
 
             <div class="info-container__info">
               <div>
-                <div class="info-container__info--details">
+                <div class="info-container__info--details-i">
                   <ul>
                     <li>
                       <h4>工夫したところ</h4>
@@ -574,14 +591,15 @@ h1 {
   margin-bottom: 0px;
 }
 h2 {
-  margin-top: 16px;
+  margin-top: 24px;
+  line-height: 40px;
 }
 
 h4 {
   margin-bottom: 8px;
 }
 ul {
-  margin: 0 40px 32px 0;
+  margin: 0 0 32px 0;
   padding: 0;
   list-style: none;
 }
@@ -610,48 +628,95 @@ li {
 }
 .main {
   display: flex;
-  /* width: 80%; */
+  width: 100%;
   /* width: 1160px; */
   /* height: 408px; */
   box-shadow: 16px 16px rgb(0, 0, 0, 0.2);
   background-color: #faf9f8;
 }
+.photo-area-top {
+  display: flex;
+}
 .photo-area {
   display: flex;
 }
+.photo-area-hit {
+  display: flex;
+}
+.photo-area-noise {
+  display: flex;
+}
 .photo-container {
-  margin-left: 80px;
+  /* margin-left: 80px; */
+}
+
+.photo-container__photo-top {
+  /* width: 440px;
+  height: auto; */
+  box-shadow: 16px 16px #ffdd50;
+  /* margin: 16px 0 32px; */
+  /* width: 80%; */
+  height: 400px;
+  /* object-fit: cover; */
+  object-fit: contain;
+  /* height: auto; */
 }
 .photo-container__photo {
   /* width: 440px;
   height: auto; */
   box-shadow: 16px 16px #ffdd50;
-  margin: 16px 0 32px;
+  /* margin: 16px 0 32px; */
   /* width: 80%; */
-  height: 320px;
+  height: 360px;
+  /* object-fit: cover; */
+  object-fit: contain;
+  /* height: auto; */
+}
+.photo-container__photo-i {
+  /* width: 440px;
+  height: auto; */
+  box-shadow: 16px 16px #ffdd50;
+  margin-bottom: 32px;
+  /* width: 80%; */
+  height: 480px;
+  /* object-fit: cover; */
+  object-fit: contain;
+  /* height: auto; */
+}
+.photo-container__photo-top-sub {
+  margin: 16px 48px 0 0;
+  box-shadow: 16px 16px #ffdd50;
+  /* margin: 16px 0 32px; */
+  /* margin-right: 48px; */
+  height: 160px;
   /* object-fit: cover; */
   object-fit: contain;
   /* height: auto; */
 }
 .photo-container__photo-sub {
+  margin: 16px 48px 0 0;
   box-shadow: 16px 16px #ffdd50;
-  margin: 16px 0 32px;
-  height: 160px;
+  margin-right: 48px;
+  /* margin: 16px 0 32px; */
+  height: 240px;
   /* object-fit: cover; */
   object-fit: contain;
   /* height: auto; */
 }
 .photo-container__photo-r {
   box-shadow: 16px 16px #ffdd50;
-  margin: 16px 0 32px;
+  /* margin: 16px 0 32px; */
   /* object-fit: contain; */
   border-radius: 53px;
 }
 .info-container {
   /* padding: 24px 0; */
   /* width: 50%; */
-  margin: auto 40px;
+  margin: auto 48px;
   /* display: flex; */
+}
+.info-container-i {
+  margin: 0 48px;
 }
 .info-container__info {
   display: flex;
@@ -689,14 +754,37 @@ li {
   /* margin: 0 auto; */
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1860px) {
   .num2 {
     width: 90%;
   }
-  .photo-area {
+  .photo-area-hit {
     display: block;
   }
+  .photo-area-noise {
+    display: block;
+  }
+  /* .photo-area-top {
+    display: block;
+  } */
+  /* .photo-area {
+    display: block;
+  } */
 }
+@media screen and (max-width: 1550px) {
+  .photo-area-top {
+    display: block;
+  }
+  .photo-container__photo-top-sub {
+    margin: 32px 48px 0 0;
+  }
+  .photo-container__photo-sub {
+    margin: 32px 48px 0 0;
+  }
+  .photo-container__photo-i {
+  }
+}
+
 @media screen and (max-width: 1330px) {
   h1 {
     margin-bottom: 80px;
@@ -737,14 +825,23 @@ li {
     height: 50%;
     margin: 32px;
   }
+  .photo-container__photo-i {
+    width: 50%;
+    height: 50%;
+    margin: 32px;
+  }
   .photo-container__photo-r {
     width: 50%;
     height: 50%;
     margin: 32px;
     border-radius: 64px;
   }
+
   .info-container {
     padding-bottom: 40px;
+  }
+  .info-container__info--details-i {
+    margin-bottom: 24px;
   }
   .num2 {
     width: 80%;
@@ -759,64 +856,92 @@ li {
     margin: auto 0 0 16px;
     text-align: end;
   }
-  @media screen and (max-width: 896px) {
-    .num {
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-    }
-    .main {
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
-    .photo-container__photo-r {
-      border-radius: 58px;
-    }
-    .info-container__info {
-      display: block;
-    }
-    .info-container__info--details {
-      display: block;
-    }
-    .num2 {
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-    }
+}
+@media screen and (max-width: 896px) {
+  ul {
+    margin: 0;
   }
-  @media screen and (max-width: 700px) {
-    .photo-container__photo-r {
-      border-radius: 40px;
-    }
+  .num {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
   }
-  @media screen and (max-width: 600px) {
-    .photo-container__photo-r {
-      border-radius: 30px;
-    }
+  .main {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
+  .photo-container__photo-r {
+    border-radius: 58px;
+  }
+  .info-container__info {
+    display: block;
+  }
+  .info-container__info--details {
+    display: block;
+  }
+  .info-container__info--details-i {
+    padding-bottom: 24px;
+  }
+  .num2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .photo-container__photo-top {
+    height: 480px;
+  }
+  .photo-container__photo {
+    width: 80%;
+  }
+  .photo-container__photo-r {
+    border-radius: 40px;
+  }
+  .photo-container__photo-i {
+    width: 80%;
+    height: auto;
+  }
+  .photo-container__photo-sub {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .photo-container__photo-top {
+    height: 400px;
+  }
+  .photo-container__photo-top-sub {
+    height: 100px;
+  }
+  .photo-container__photo-r {
+    border-radius: 30px;
+  }
+  .photo-container__photo-sub {
+    height: 150px;
+  }
+}
 
-  @media screen and (max-width: 480px) {
-    h1 {
-      margin-bottom: 40px;
-    }
-    .wrapper {
-      margin: 24px;
-    }
-    .triangle {
-      background: linear-gradient(to top right, #606cef 25%, transparent 25.3%)
-          0% 30% no-repeat,
-        linear-gradient(to bottom right, #606cef 25%, transparent 25.3%) 0% 130%
-          no-repeat,
-        linear-gradient(to top left, #606cef 25%, transparent 25.3%) 100% 0%
-          no-repeat,
-        linear-gradient(to bottom left, #606cef 25%, transparent 25.3%) 100%
-          100% no-repeat;
-      background-size: 50% 50%;
-    }
-    .photo-container__photo-r {
-      border-radius: 30px;
-    }
+@media screen and (max-width: 480px) {
+  h1 {
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    margin: 24px;
+  }
+  .triangle {
+    background: linear-gradient(to top right, #606cef 25%, transparent 25.3%) 0%
+        30% no-repeat,
+      linear-gradient(to bottom right, #606cef 25%, transparent 25.3%) 0% 130%
+        no-repeat,
+      linear-gradient(to top left, #606cef 25%, transparent 25.3%) 100% 0%
+        no-repeat,
+      linear-gradient(to bottom left, #606cef 25%, transparent 25.3%) 100% 100%
+        no-repeat;
+    background-size: 50% 50%;
+  }
+  .photo-container__photo-r {
+    border-radius: 30px;
   }
 }
 </style>
