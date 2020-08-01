@@ -16,15 +16,19 @@ export default {
 
 <style scoped>
 #footer {
-  height: 32px;
-  width: 100%;
-  margin-top: auto;
-  text-align: center;
   line-height: 32px;
+
+  width: 100%;
+  height: 32px;
+  margin-top: auto;
+
+  text-align: center;
+
   color: #606cef;
 }
 p {
   line-height: 32px;
+
   margin: 0;
 }
 </style>

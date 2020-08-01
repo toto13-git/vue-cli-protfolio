@@ -8,7 +8,6 @@
   </div>
 </template>
 
-
 <script>
 import "normalize.css";
 import Header from "./components/Header.vue";
@@ -29,26 +28,30 @@ html {
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+
+  color: #2c3e50;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
 }
 
 #nav {
   display: flex;
   flex-direction: column;
+
   min-height: 100vh;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+
   opacity: 0.3;
+  color: #2c3e50;
 }
 
 #nav a.router-link-exact-active {
-  color: #606cef;
   opacity: 1;
+  color: #606cef;
 }
 
 .wrapper {
@@ -57,11 +60,13 @@ html {
 
 h1 {
   font-size: 4.8rem;
+
   margin: 0 0 40px 0;
 }
 
 h2 {
   font-size: 2.4rem;
+
   margin: 0;
 }
 p {
@@ -71,6 +76,7 @@ p {
 
 a {
   font-size: 1.6rem;
+
   margin: 0;
 }
 </style>

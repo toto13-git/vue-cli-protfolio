@@ -13,7 +13,11 @@
 
         <div class="main">
           <div class="photo-container">
-            <img class="photo-container__photo-top" :src="image_zoff" alt="画像" />
+            <img
+              class="photo-container__photo-top"
+              :src="image_zoff"
+              alt="画像"
+            />
           </div>
 
           <div class="info-container">
@@ -30,8 +34,8 @@
                       <h4>課題内容</h4>
                     </li>
                     <li>
-                      広告する企業様と商品を選び、雑誌広告を作成する。
-                      株式会社 ゾフ、眼鏡、男性誌を選択。
+                      広告する企業様と商品を選び、雑誌広告を作成する。 株式会社
+                      ゾフ、眼鏡、男性誌を選択。
                     </li>
                     <li>
                       <h4>コンセプト</h4>
@@ -40,11 +44,15 @@
                     <li>
                       <h4>ターゲット</h4>
                     </li>
-                    <li>おしゃれに敏感、もしくはもう一歩が踏み出せないM1層。</li>
+                    <li>
+                      おしゃれに敏感、もしくはもう一歩が踏み出せないM1層。
+                    </li>
                     <li>
                       <h4>工夫したところ</h4>
                     </li>
-                    <li>はじめはお札のデザインをそのまま作成しようと思っていましたが、リアルすぎると見る人が一歩引いてしまうという指摘を受けました。なので印鑑の箇所をZoffにしてみたり、あまり細かく作りすぎないことで見てもらえるようにしました。</li>
+                    <li>
+                      はじめはお札のデザインをそのまま作成しようと思っていましたが、リアルすぎると見る人が一歩引いてしまうという指摘を受けました。なので印鑑の箇所をZoffにしてみたり、あまり細かく作りすぎないことで見てもらえるようにしました。
+                    </li>
                     <li>
                       <h4>その他アイデア、ビジュアル</h4>
                     </li>
@@ -90,7 +98,11 @@
 
         <div class="main">
           <div class="photo-container">
-            <img class="photo-container__photo-r" :src="image_river_1" alt="画像" />
+            <img
+              class="photo-container__photo-r"
+              :src="image_river_1"
+              alt="画像"
+            />
           </div>
 
           <div class="info-container">
@@ -135,7 +147,11 @@
                     <div class="photo-area">
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_river_2" alt="画像" />
+                          <img
+                            class="photo-container__photo-sub"
+                            :src="image_river_2"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                     </div>
@@ -177,11 +193,15 @@
                     <li>
                       <h4>課題内容</h4>
                     </li>
-                    <li>広告する企業様と商品を選び、電車の中刷り広告を制作する。</li>
+                    <li>
+                      広告する企業様と商品を選び、電車の中刷り広告を制作する。
+                    </li>
                     <li>
                       <h4>コンセプト</h4>
                     </li>
-                    <li>コミカルなビジュアルでノイズキャンセリングシステムをつたえる。</li>
+                    <li>
+                      コミカルなビジュアルでノイズキャンセリングシステムをつたえる。
+                    </li>
                     <li>
                       <h4>ターゲット</h4>
                     </li>
@@ -200,12 +220,20 @@
                     <div class="photo-area-noise">
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_noise_1" alt="画像" />
+                          <img
+                            class="photo-container__photo-sub"
+                            :src="image_noise_1"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_noise_2" alt="画像" />
+                          <img
+                            class="photo-container__photo-sub"
+                            :src="image_noise_2"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                     </div>
@@ -231,7 +259,11 @@
 
         <div class="main">
           <div class="photo-container">
-            <img class="photo-container__photo" :src="image_kawasemi" alt="画像" />
+            <img
+              class="photo-container__photo"
+              :src="image_kawasemi"
+              alt="画像"
+            />
           </div>
 
           <div class="info-container">
@@ -244,11 +276,15 @@
                     <li>
                       <h4>課題内容</h4>
                     </li>
-                    <li>全国豊かな海づくり大会、ぎふ清流国体など大会が開催されることに伴い、関市を全国に的にPRするためのイメージキャラクターを募集する。</li>
+                    <li>
+                      全国豊かな海づくり大会、ぎふ清流国体など大会が開催されることに伴い、関市を全国に的にPRするためのイメージキャラクターを募集する。
+                    </li>
                     <li>
                       <h4>コンセプト</h4>
                     </li>
-                    <li>市の鳥カワセミと刃物の町から関市のイメージキャラクターを目指します。</li>
+                    <li>
+                      市の鳥カワセミと刃物の町から関市のイメージキャラクターを目指します。
+                    </li>
                     <li>
                       <h4>ターゲット</h4>
                     </li>
@@ -256,7 +292,9 @@
                     <li>
                       <h4>工夫したところ</h4>
                     </li>
-                    <li>関市は刃物のまちということと、市の鳥がカワセミということから刀匠のカワセミのキャラクターを制作しました。帯の色は自然豊かな土地であり市の色というとから若草色にし、関市のイメージが伝わるようにしました。キャラクターもなるべく多くの人に愛されるように元気でかわいらしくすることを心がけました。</li>
+                    <li>
+                      関市は刃物のまちということと、市の鳥がカワセミということから刀匠のカワセミのキャラクターを制作しました。帯の色は自然豊かな土地であり市の色というとから若草色にし、関市のイメージが伝わるようにしました。キャラクターもなるべく多くの人に愛されるように元気でかわいらしくすることを心がけました。
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -300,17 +338,20 @@
                     <li>
                       <h4>取り扱い商品</h4>
                     </li>
-                    <li>ジャンルを問わない世界各国の音楽やインディーズレーベルのCDを取り揃えている。</li>
+                    <li>
+                      ジャンルを問わない世界各国の音楽やインディーズレーベルのCDを取り揃えている。
+                    </li>
                     <li>
                       <h4>コンセプト</h4>
                     </li>
-                    <li>顧客が求めている音楽やまだ知らない音楽を発見する事ができる店舗を目指します。</li>
+                    <li>
+                      顧客が求めている音楽やまだ知らない音楽を発見する事ができる店舗を目指します。
+                    </li>
                     <li>
                       <h4>ターゲット</h4>
                     </li>
                     <li>
-                      コアな音楽を求めている人。
-                      自分だけの音楽を求めている人。
+                      コアな音楽を求めている人。 自分だけの音楽を求めている人。
                     </li>
                     <li>
                       <h4>工夫したところ</h4>
@@ -326,12 +367,20 @@
                     <div class="photo-area">
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_dig_2" alt="画像" />
+                          <img
+                            class="photo-container__photo-sub"
+                            :src="image_dig_2"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_dig_3" alt="画像" />
+                          <img
+                            class="photo-container__photo-sub"
+                            :src="image_dig_3"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                     </div>
@@ -374,7 +423,9 @@
                     <li>
                       <h4>概要</h4>
                     </li>
-                    <li>「チーム88%」を合言葉に名古屋ピンクリボンフェスタは乳がん検診率88%を目標に活動していきます。</li>
+                    <li>
+                      「チーム88%」を合言葉に名古屋ピンクリボンフェスタは乳がん検診率88%を目標に活動していきます。
+                    </li>
                     <li>
                       <h4>コンセプト</h4>
                     </li>
@@ -386,7 +437,9 @@
                     <li>
                       <h4>工夫したところ</h4>
                     </li>
-                    <li>「チーム88%」を合言葉に名古屋ピンクリボンフェスタは乳がん検診率88%を目標に活動していきます。とあったので、88をピンクのリボンで表現しました。</li>
+                    <li>
+                      「チーム88%」を合言葉に名古屋ピンクリボンフェスタは乳がん検診率88%を目標に活動していきます。とあったので、88をピンクのリボンで表現しました。
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -423,8 +476,13 @@
                       <h4>応募内容</h4>
                     </li>
                     <li>
-                      地域の中小企業の売上アッ プや創業希望者を力強く支援 する「人吉しごとサポートセ ンター(Hit‐Biz)」を、 7月中旬(予定)に旧国民宿舎内に開設します。 そこで、「Hit‐Biz」 のポスターやパンフレット、 チラシ、名刺などに使用する ロゴマークデザインを募集し ます。
-                      「Hit‐Biz」の6文字を 使い、企業や地域に元気を与える印象がある。
+                      地域の中小企業の売上アッ プや創業希望者を力強く支援
+                      する「人吉しごとサポートセ ンター(Hit‐Biz)」を、
+                      7月中旬(予定)に旧国民宿舎内に開設します。
+                      そこで、「Hit‐Biz」 のポスターやパンフレット、
+                      チラシ、名刺などに使用する ロゴマークデザインを募集し
+                      ます。 「Hit‐Biz」の6文字を
+                      使い、企業や地域に元気を与える印象がある。
                       赤系の色を使用する。
                     </li>
 
@@ -450,12 +508,20 @@
                     <div class="photo-area-hit">
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_hit_2" alt="画像" />
+                          <img
+                            class="photo-container__photo-sub"
+                            :src="image_hit_2"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                       <li>
                         <div class="photo-container">
-                          <img class="photo-container__photo-sub" :src="image_hit_3" alt="画像" />
+                          <img
+                            class="photo-container__photo-sub"
+                            :src="image_hit_3"
+                            alt="画像"
+                          />
                         </div>
                       </li>
                     </div>
@@ -481,7 +547,11 @@
 
         <div class="main">
           <div class="photo-container">
-            <img class="photo-container__photo-i" :src="image_tuno" alt="画像" />
+            <img
+              class="photo-container__photo-i"
+              :src="image_tuno"
+              alt="画像"
+            />
           </div>
 
           <div class="info-container-i">
@@ -533,7 +603,9 @@
                     <li>
                       <h4>工夫したところ</h4>
                     </li>
-                    <li>りんごの皮を擬人化しました。りんごの皮がクルクル回っているのが、まるで踊っているかのように見えたため優雅に表現しました。</li>
+                    <li>
+                      りんごの皮を擬人化しました。りんごの皮がクルクル回っているのが、まるで踊っているかのように見えたため優雅に表現しました。
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -572,29 +644,14 @@ export default {
 };
 </script>
 
-<style  scoped>
-.triangle {
-  padding-bottom: 24px;
-  background: linear-gradient(to top right, #606cef 25%, transparent 25.1%) 0%
-      30% no-repeat,
-    linear-gradient(to bottom right, #606cef 25%, transparent 25.1%) 0% 130%
-      no-repeat,
-    linear-gradient(to top left, #606cef 25%, transparent 25.1%) 100% 0%
-      no-repeat,
-    linear-gradient(to bottom left, #606cef 25%, transparent 25.1%) 100% 100%
-      no-repeat;
-  background-size: 50% 50%;
-}
-
+<style scoped>
 h1 {
-  /* margin-left: 80px; */
   margin-bottom: 0px;
 }
 h2 {
   margin-top: 24px;
   line-height: 40px;
 }
-
 h4 {
   margin-bottom: 8px;
 }
@@ -607,15 +664,8 @@ li {
   font-size: 1.6rem;
   line-height: 24px;
 }
-
-/* #nav a {
-  opacity: 1;
-} */
 .num {
   width: 80%;
-}
-.num-container {
-  /* margin-left: 80px; */
 }
 .num-container__num {
   font-size: 2rem;
@@ -629,8 +679,7 @@ li {
 .main {
   display: flex;
   width: 100%;
-  /* width: 1160px; */
-  /* height: 408px; */
+
   box-shadow: 16px 16px rgb(0, 0, 0, 0.2);
   background-color: #faf9f8;
 }
@@ -646,74 +695,48 @@ li {
 .photo-area-noise {
   display: flex;
 }
-.photo-container {
-  /* margin-left: 80px; */
-}
-
 .photo-container__photo-top {
-  /* width: 440px;
-  height: auto; */
   box-shadow: 16px 16px #ffdd50;
-  /* margin: 16px 0 32px; */
-  /* width: 80%; */
+
   height: 400px;
-  /* object-fit: cover; */
+
   object-fit: contain;
-  /* height: auto; */
 }
 .photo-container__photo {
-  /* width: 440px;
-  height: auto; */
   box-shadow: 16px 16px #ffdd50;
-  /* margin: 16px 0 32px; */
-  /* width: 80%; */
+
   height: 360px;
-  /* object-fit: cover; */
+
   object-fit: contain;
-  /* height: auto; */
 }
 .photo-container__photo-i {
-  /* width: 440px;
-  height: auto; */
   box-shadow: 16px 16px #ffdd50;
   margin-bottom: 32px;
-  /* width: 80%; */
+
   height: 480px;
-  /* object-fit: cover; */
+
   object-fit: contain;
-  /* height: auto; */
 }
 .photo-container__photo-top-sub {
   margin: 16px 48px 0 0;
   box-shadow: 16px 16px #ffdd50;
-  /* margin: 16px 0 32px; */
-  /* margin-right: 48px; */
+
   height: 160px;
-  /* object-fit: cover; */
   object-fit: contain;
-  /* height: auto; */
 }
 .photo-container__photo-sub {
   margin: 16px 48px 0 0;
   box-shadow: 16px 16px #ffdd50;
   margin-right: 48px;
-  /* margin: 16px 0 32px; */
   height: 240px;
-  /* object-fit: cover; */
   object-fit: contain;
-  /* height: auto; */
 }
 .photo-container__photo-r {
   box-shadow: 16px 16px #ffdd50;
-  /* margin: 16px 0 32px; */
-  /* object-fit: contain; */
   border-radius: 53px;
 }
 .info-container {
-  /* padding: 24px 0; */
-  /* width: 50%; */
   margin: auto 48px;
-  /* display: flex; */
 }
 .info-container-i {
   margin: 0 48px;
@@ -740,20 +763,13 @@ li {
   margin: auto 0 0 40px;
   text-align: end;
 }
-
 .content2 {
   width: 100%;
-  /* 
-  margin: 252px 0 80px 664px; */
 }
-
 .num2 {
   width: 70%;
-  /* margin: 0 0 0 auto; */
   margin: 176px 0 176px auto;
-  /* margin: 0 auto; */
 }
-
 @media screen and (max-width: 1860px) {
   .num2 {
     width: 90%;
@@ -764,12 +780,6 @@ li {
   .photo-area-noise {
     display: block;
   }
-  /* .photo-area-top {
-    display: block;
-  } */
-  /* .photo-area {
-    display: block;
-  } */
 }
 @media screen and (max-width: 1550px) {
   .photo-area-top {
@@ -781,15 +791,11 @@ li {
   .photo-container__photo-sub {
     margin: 32px 48px 0 0;
   }
-  .photo-container__photo-i {
-  }
 }
-
 @media screen and (max-width: 1330px) {
   h1 {
     margin-bottom: 80px;
   }
-
   .num {
     width: 100%;
   }
@@ -799,6 +805,9 @@ li {
   }
 }
 @media screen and (max-width: 1230px) {
+  ul {
+    margin: 0 16px 0 0;
+  }
   .production {
     width: 100%;
   }
@@ -813,7 +822,6 @@ li {
     height: 100%;
     margin: 0 auto 80px;
   }
-
   .photo-container {
     width: 100%;
     height: 100%;
@@ -836,7 +844,6 @@ li {
     margin: 32px;
     border-radius: 64px;
   }
-
   .info-container {
     padding-bottom: 40px;
   }
@@ -847,10 +854,6 @@ li {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-  }
-
-  ul {
-    margin: 0 16px 0 0;
   }
   .info-container__link--box {
     margin: auto 0 0 16px;
@@ -921,24 +924,12 @@ li {
     height: 150px;
   }
 }
-
 @media screen and (max-width: 480px) {
   h1 {
     margin-bottom: 40px;
   }
   .wrapper {
     margin: 24px;
-  }
-  .triangle {
-    background: linear-gradient(to top right, #606cef 25%, transparent 25.3%) 0%
-        30% no-repeat,
-      linear-gradient(to bottom right, #606cef 25%, transparent 25.3%) 0% 130%
-        no-repeat,
-      linear-gradient(to top left, #606cef 25%, transparent 25.3%) 100% 0%
-        no-repeat,
-      linear-gradient(to bottom left, #606cef 25%, transparent 25.3%) 100% 100%
-        no-repeat;
-    background-size: 50% 50%;
   }
   .photo-container__photo-r {
     border-radius: 30px;

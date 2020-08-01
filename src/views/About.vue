@@ -22,14 +22,17 @@
         <li>
           <span>経歴</span>
         </li>
-        <li>2011年〜2018年10月まで自動車部品のプラスチック成形機オペレーター兼生産管理職に従事</li>
+        <li>
+          2011年〜2018年10月まで自動車部品のプラスチック成形機オペレーター兼生産管理職に従事
+        </li>
         <li>2018年11月〜2019年9月まで食べログなどの飲食サイトの編集職に従事</li>
-        <li>2019年10月〜12月までテックキャンプ(旧テックエキスパート)にてプログラミングを学習</li>
+        <li>
+          2019年10月〜12月までテックキャンプ(旧テックエキスパート)にてプログラミングを学習
+        </li>
       </ul>
     </div>
   </div>
 </template>
-
 
 <script>
 export default {
@@ -52,9 +55,10 @@ span {
   font-weight: 600;
 }
 ul {
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 li {
   font-size: 1.6rem;
@@ -68,7 +72,6 @@ li {
 }
 .about__container-abter {
   width: 200px;
-  /* height: 100px; */
   margin: 0 32px 32px 0;
 }
 
