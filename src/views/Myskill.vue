@@ -3,7 +3,9 @@
     <div class="skill">
       <h1>Skill</h1>
       <h2>デザインスキル</h2>
-      <p class="skill-sub">デザイン専門学校から使用していますので一通りの基礎操作が可能です。</p>
+      <p class="skill-sub">
+        デザイン専門学校から使用していますので一通りの基礎操作が可能です。
+      </p>
 
       <ul class="skill-ul">
         <div class="skill-container">
@@ -31,7 +33,9 @@
       <hr />
 
       <h2>プログラミングスキル</h2>
-      <p class="skill-sub">プログラミングスクールでフロントエンドやサーバーサイドの基礎を学びました。</p>
+      <p class="skill-sub">
+        プログラミングスクールでフロントエンドやサーバーサイドの基礎を学びました。
+      </p>
 
       <ul class="skill-ul">
         <div class="skill-container">
@@ -91,7 +95,9 @@
       </ul>
       <hr />
       <h2>今後習得したいスキル</h2>
-      <p class="skill-sub">webデザインの幅を広げたいので、モーショングラフィックスと動画編集の学習をしたいと考えております。</p>
+      <p class="skill-sub">
+        webデザインの幅を広げたいので、モーショングラフィックスと動画編集の学習をしたいと考えております。
+      </p>
       <ul class="skill-ul">
         <div class="skill-container">
           <li class="skill-li">
@@ -136,18 +142,20 @@ export default {
 <style scoped>
 ul {
   font-size: 1.6rem;
-  list-style: none;
+
   padding: 0;
+
+  list-style: none;
 }
 li {
   margin-bottom: 2.4rem;
 }
 img {
-  width: 48px;
   display: block;
+
+  width: 48px;
   margin: 0 auto;
 }
-
 h2 {
   margin-bottom: 24px;
 }
@@ -155,29 +163,27 @@ hr {
   margin-bottom: 24px;
 }
 .skill-sub {
-  /* margin: 0 0 0 24px; */
   margin-bottom: 24px;
 }
-
 .skill-container {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-}
 
+  width: 100%;
+}
 .skill-li {
-  width: 25%;
-  height: 80px;
   display: flex;
   flex-direction: column;
+
   box-sizing: border-box;
+  width: 25%;
+  height: 80px;
 }
-
 .skill-li-name {
-  text-align: center;
   margin-top: auto;
-}
 
+  text-align: center;
+}
 @media screen and (max-width: 480px) {
   .wrapper {
     margin: 24px;
