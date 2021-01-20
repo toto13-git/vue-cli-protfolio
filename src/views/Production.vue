@@ -717,9 +717,7 @@ h1 {
 }
 .nav {
   font-size: 2.4rem;
-
   padding-left: 56px;
-
   text-decoration: none;
 }
 
@@ -788,7 +786,6 @@ li {
 .main {
   display: flex;
   width: 100%;
-
   box-shadow: 16px 16px rgb(0, 0, 0, 0.2);
   background-color: #faf9f8;
 }
@@ -806,30 +803,23 @@ li {
 }
 .photo-container__photo-top {
   box-shadow: 16px 16px #ffdd50;
-
   height: 400px;
-
   object-fit: contain;
 }
 .photo-container__photo {
   box-shadow: 16px 16px #ffdd50;
-
   height: 360px;
-
   object-fit: contain;
 }
 .photo-container__photo-i {
   box-shadow: 16px 16px #ffdd50;
   margin-bottom: 32px;
-
   height: 480px;
-
   object-fit: contain;
 }
 .photo-container__photo-top-sub {
   margin: 16px 48px 0 0;
   box-shadow: 16px 16px #ffdd50;
-
   height: 160px;
   object-fit: contain;
 }
